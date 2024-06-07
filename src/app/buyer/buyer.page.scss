@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#ndes {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    z-index: 2;
+}
+#ndes2{
+    background-color: whitesmoke;
+    height: 70px;
+}
+#ndes3{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    z-index: 2;
+}
+#ndes4{
+    background-color: black;
+    height: 70px;
+}
+#naming1{
+    color: white;
+    font-size: 200px;
+    font-family: 'Bebas Neue', cursive;
+}
+#naming2{
+    color: orange;
+    font-size: 10vw;
+    font-family: 'Bebas Neue', cursive;
+}
+#naming3{
+    color: #0096FF;
+    font-size: 10vw;
+    font-family: 'Bebas Neue', cursive;
+}
+#check{
+    width: 350px;
+    height: 350px;
+    min-width: 300px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 3px solid orange;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#check1{
+    width: 350px;
+    height: 350px;
+    min-width: 300px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 3px solid #0096FF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#ty{
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.1),
+               0 3px 5px rgba(0,0,0,.1),
+               0 5px 10px rgba(0,0,0,.1),
+               0 10px 10px rgba(0,0,0,.1),
+               0 10px 10px rgba(0,0,0,.1);
+}
+h1{
+  font-size: 80px;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 3px;
+}
+#gcheck{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9px;
+    color: orange;
+}
+#gcheck1{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 11px;
+    color: #0096FF;
+}
+#login {
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    --background: #ff1616;
+    --background-hover: #E34234;
+    --background-activated: #E34234;
+    --background-focused: #E34234;
+    --border-radius: 5px;
+    --ripple-color: #E34234;
+    z-index: 3;
+  }
+  #login1 {
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    --background: #0096FF;
+    --background-hover: #0F52BA;
+    --background-activated: #0F52BA;
+    --background-focused: #0F52BA;
+    --border-radius: 5px;
+    --ripple-color: #1F51FF;
+    z-index: 3;
+  }
+  #login2 {
+    width: 90px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    --background: whitesmoke;
+    --background-hover: gray;
+    --background-activated: grey;
+    --background-focused: grey;
+    --border-radius: 5px;
+    --ripple-color: darkgrey;
+    z-index: 3;
+  }
+ion-footer{
+    width: 100%;
+    height: 40px;
+    background-color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 9px;
+}
+#shwaps{
+    color: orange;
+    font-size: 20px;
+}
+#naming5{
+    color: black;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+  ion-toolbar{
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+ion-text{
+    color: black;
+    font-size: 20px;
+}
+#dash{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+}
+#con1{
+    background-color: whitesmoke;
+    width: 350px;
+    height: 350px;
+}
+#items1{
+  width: 350px;
+  height: 350px;
+  min-width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+#pics1{
+    width: 350px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.atext{
+    color: black;
+    font-size: 18px;
+    padding-left: 35px;
+    margin-top: 12.5px;
+}
+.itext{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.btext{
+    color: orange;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -1px;
+}
+.ttext{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+.etext{
+    color: white;
+    font-size: 18px;
+}
+.gtext{
+    color: #0096FF;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -1px;
+}
+.ftext{
+    color: white;
+    margin-top: 12px;
+}
+.htext{
+    color: #0096FF;
+    margin-top: 12px;
+}
+#ctext{
+    color: black;
+    font-size: 18px;
+    padding-left: 35px;
+    margin-top: -5px;
+}
+#loc{
+    width: 20px;
+    height: 20px;
+    color: #0BDA51;
+}
+#bottombg{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: -10px;
+}
+#bottombg1{
+    background-color: black;
+    width: 100%;
+    height: 46px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 10px;
+}

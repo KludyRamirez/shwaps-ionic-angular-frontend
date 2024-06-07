@@ -1,0 +1,7 @@
+{
+  "name": "shwaps",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

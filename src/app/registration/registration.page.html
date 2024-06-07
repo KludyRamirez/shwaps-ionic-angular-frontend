@@ -1,0 +1,103 @@
+<ion-app>
+  <ion-content id="nikeyellowblack">
+      <div id="Nike" class="ion-padding">
+        <h1 id="naming">gucci x</h1>
+      </div>
+      <div id="Air">
+        <h1 id="naming">force</h1>
+      </div>
+  </ion-content>
+  
+  <div id="ndes">
+  <h1 id="naming1">Accel</h1>
+  <h1 id="naming1">sh</h1>
+  <h1 id="naming2">Register</h1>
+  <h1 id="naming1">Armour</h1>
+  <h1 id="naming1">Nike</h1>
+  <h1 id="naming1">Nike</h1>
+  <h1 id="naming1">Nike</h1>
+  </div>
+  
+  <ion-content id="forms" class="forms">
+    <ion-item>
+      <ion-label position="stacked"><h2>Email</h2></ion-label>
+      <br>
+      <form [formGroup]="RegisterForm" id="formi">
+      <ion-input id="email" 
+                  placeholder="Enter Email" 
+                  value="" 
+                  name="email"
+                  type="Email" 
+                  ngModel email
+                  [(ngModel)]="valuefromuser"
+                  formControlName="name">
+      </ion-input>
+      </form>
+    </ion-item>
+    <ion-text *ngIf="RegisterForm.get('name').hasError('required') && 
+        RegisterForm.get('name').touched">
+        <h4>Email shouldn't be empty</h4>
+    </ion-text>
+    <ion-item>
+      <form [formGroup]="RegisterForm1" id="formi1">
+      <ion-label position="stacked"><h2>Password</h2></ion-label>
+      <br>
+      <ion-input id="pass" 
+                 name="password" 
+                 placeholder="Enter Password" 
+                 value="" 
+                 [(ngModel)]="valuefromusera"
+                 formControlName="name1"
+                 type="Password"></ion-input>
+      </form>
+    </ion-item>
+    <ion-text *ngIf="RegisterForm1.get('name1').hasError('required') && 
+        RegisterForm1.get('name1').touched">
+        <h4>Password shouldn't be empty</h4>
+    </ion-text>
+    <ion-text *ngIf="RegisterForm1.get('name1').hasError('minlength') && 
+        RegisterForm1.get('name1').touched">
+        <h4>minumum of 6 characters</h4>
+    </ion-text>
+    <ion-text *ngIf="RegisterForm1.get('name1').hasError('maxlength') && 
+    RegisterForm1.get('name1').touched">
+    <h4>maximum of 12 characters</h4>
+  </ion-text>
+  <ion-item>
+    <form [formGroup]="RegisterForm2" id="formi2">
+    <ion-label position="stacked"><h2>Retype Pass</h2></ion-label>
+    <br>
+    <ion-input id="pass" 
+               name="password" 
+               placeholder="Enter Password" 
+               value="" 
+               [(ngModel)]="valuefromuserab"
+               formControlName="name2"
+               type="Password"></ion-input>
+    </form>
+  </ion-item>
+  <ion-text *ngIf="RegisterForm2.get('name2').hasError('required') && 
+      RegisterForm2.get('name2').touched">
+      <h4>Password shouldn't be empty</h4>
+  </ion-text>
+  <ion-text *ngIf="RegisterForm2.get('name2').hasError('minlength') && 
+      RegisterForm2.get('name2').touched">
+      <h4>minumum of 6 characters</h4>
+  </ion-text>
+  <ion-text *ngIf="RegisterForm2.get('name2').hasError('maxlength') && 
+  RegisterForm2.get('name2').touched">
+  <h4>maximum of 12 characters</h4>
+</ion-text>
+    <br>
+    <ion-button id="link" fill="clear">Forgot Password?</ion-button>
+    <br>
+    <ion-button id="link" (click)="loginsubmit()" fill="clear">Login?</ion-button>
+    <br><br>
+    <ion-button id="login" (click)="formsubmit()" [disabled]="RegisterForm.invalid"><h3>Register</h3></ion-button>
+    <br><br><br>
+  </ion-content>
+  <ion-footer>
+    <ion-text id="shwaps1">Popshop.co/</ion-text><ion-text id="shwaps">shwaps</ion-text>
+    <br>
+  </ion-footer>
+  </ion-app>

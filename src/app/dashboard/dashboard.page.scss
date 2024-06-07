@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#ndes {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    z-index: 2;
+}
+#ndes2 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+#naming1{
+    color: white;
+    font-size: 200px;
+    font-family: 'Bebas Neue', cursive;
+}
+#naming2{
+    color: black;
+    font-size: 10vw;
+    font-family: 'Bebas Neue', cursive;
+}
+#naming3{
+    color: grey;
+    font-size: 200px;
+    font-family: 'Bebas Neue', cursive;
+}
+#naming4{
+    color: white;
+    font-size: 10vw;
+    font-family: 'Bebas Neue', cursive;
+}
+#naming5{
+  color: black;
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
+}
+ion-toolbar{
+  padding-left: 20px;
+}
+#bg{
+    --background: none;
+    background-image: url('../../assets/pics/soar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#grids{
+    --padding-start: 20px;
+    --padding-end: 20px;
+}
+#items{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+    -webkit-transition: 400ms ease 400ms;
+    -moz-transition: 500ms ease 500ms;
+    transition: 500ms ease 500ms;
+    min-width: 300px;
+    
+}
+#items1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 5px;
+  -webkit-transition: 400ms ease 400ms;
+  -moz-transition: 500ms ease 500ms;
+  transition: 500ms ease 500ms;
+  min-width: 300px;
+  background-color: black;
+}
+#pics{
+    min-width: 260px;
+    min-height: 260px;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#pics1{
+    min-width: 200px;
+    min-height: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+#login {
+    width: 90px;
+    height: 45px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    --background: whitesmoke;
+    --background-hover: gray;
+    --background-activated: #FFDB58;
+    --background-focused: #FFDB58;
+    --border-radius: 5px;
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    --ripple-color: darkgrey;
+    z-index: 3;
+}
+  h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 160px;
+    transform: (rotate(270deg));
+    transform-origin: 0 0;
+    color: whitesmoke;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.1),
+               0 3px 5px rgba(0,0,0,.1),
+               0 5px 10px rgba(0,0,0,.1),
+               0 10px 10px rgba(0,0,0,.1),
+               0 10px 10px rgba(0,0,0,.1);
+}
+  h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 3px;
+  }
+  .dif{
+    color: whitesmoke;
+  }
+  .bottombg{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 8px;
+  }
+  .bottombg1{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 8px;
+  }
+  .atext{
+    color: black;
+    font-size: 16px;
+  }
+  .btext{
+    color: white;
+    font-size: 16px;
+  }
+  #button2{
+    --ripple-color:darkgrey;
+  }
+  

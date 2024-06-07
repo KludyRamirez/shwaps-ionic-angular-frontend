@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#ndes1 {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+#ndes2 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+#naming1{
+    color: white;
+    font-size: 200px;
+    font-family: 'Bebas Neue', cursive;
+    z-index: 2;
+}
+#naming2{
+    color: black;
+    font-size: 10vw;
+    font-family: 'Bebas Neue', cursive;
+    z-index: 2;
+}
+#naming3{
+    color: grey;
+    font-size: 200px;
+    font-family: 'Bebas Neue', cursive;
+}
+#naming4{
+    color: whitesmoke;
+    font-size: 10vw;
+    font-family: 'Bebas Neue', cursive;
+}
+#naming5{
+    color: black;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+#items{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+    -webkit-transition: 400ms ease 400ms;
+    -moz-transition: 500ms ease 500ms;
+    transition: 500ms ease 500ms;
+    min-width: 300px;
+}
+#pics{
+    min-width: 260px;
+    min-height: 260px;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    margin-top: 12.5px;
+    
+}
+h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    margin-top: -290px;
+    padding-left: 15px;
+}
+#login {
+    width: 85px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    --background: #005073;
+    --background-hover: #6495ED;
+    --background-activated: #0096FF;
+    --background-focused: #0096FF;
+    --border-radius: 5px;
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    --ripple-color: #0096FF;
+    z-index: 3;
+    
+}
+#login1 {
+    width: 85px;
+    height: 40px;
+    text-align: center;
+    float: right;
+    --background:#ff1616;
+    --background-hover: #FA8072;
+    --background-activated: #880808;
+    --background-focused: #880808;
+    --border-radius: 5px;
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    --ripple-color:  #880808;
+    z-index: 3;
+}
+#buttonf{
+    margin-top: 210px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2);
+    color: white;
+    letter-spacing: 5px;
+}
+h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2);
+    color: white;
+    letter-spacing: 5px;
+}
+ion-input{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #0096FF;
+    width: 75vw;
+}
+ion-textarea{
+    font-family: 'Bebas Neue', cursive;
+    background-color: whitesmoke;
+    color: #0096FF;
+}
+#forms{
+    padding-left: 15px;
+    padding-right: 20px;
+    z-index: 4;
+}
+#forms1{
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: -15px;
+}
+#desc{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#picplacehold{
+    background-color: whitesmoke;
+}
+ion-icon{
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+ion-toolbar{
+    padding-left: 20px;
+}

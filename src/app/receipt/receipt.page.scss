@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#ndes {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    z-index: 2;
+}
+#ndes2{
+    background-color: whitesmoke;
+    height: 70px;
+}
+#naming1{
+    color: white;
+    font-size: 200px;
+    font-family: 'Bebas Neue', cursive;
+}
+#naming2{
+    color: #0BDA51;
+    font-size: 10vw;
+    font-family: 'Bebas Neue', cursive;
+}
+#check{
+    width: 350px;
+    height: 350px;
+    min-width: 300px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#ty{
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.1),
+               0 3px 5px rgba(0,0,0,.1),
+               0 5px 10px rgba(0,0,0,.1),
+               0 10px 10px rgba(0,0,0,.1),
+               0 10px 10px rgba(0,0,0,.1);
+}
+h1{
+  font-size: 80px;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 3px;
+}
+#gcheck{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 11px;
+    color: #0BDA51;
+}
+#login {
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    --background: whitesmoke;
+    --background-hover: gray;
+    --background-activated: grey;
+    --background-focused: grey;
+    --border-radius: 5px;
+    --ripple-color: darkgrey;
+    z-index: 3;
+  }
+ion-footer{
+    width: 100%;
+    height: 40px;
+    background-color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 9px;
+}
+#shwaps{
+    color: #0BDA51;
+    font-size: 20px;
+}
+#naming5{
+    color: black;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+  ion-toolbar{
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+#dash{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 16px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+}
+#con1{
+    background-color: whitesmoke;
+    width: 350px;
+    height: 350px;
+}
+#items1{
+  width: 350px;
+  height: 350px;
+  min-width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 5px;
+  background-color: white;
+}
+#pics1{
+    width: 350px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.atext{
+    color: black;
+    font-size: 18px;
+    padding-left: 35px;
+    margin-top: 12.5px;
+}
+.btext{
+    color: #0BDA51;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -1px;
+}
+.ttext{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 12.5px;
+}
+#ctext{
+    color: black;
+    font-size: 18px;
+    padding-left: 35px;
+    margin-top: -5px;
+}
+#loc{
+    width: 20px;
+    height: 20px;
+    color: #0BDA51;
+}
+ion-text{
+    color: black;
+    font-size: 20px;
+}
